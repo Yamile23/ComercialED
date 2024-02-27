@@ -1,0 +1,189 @@
+body{
+    background-color: #f9fafe;
+}
+
+.container-fluid{
+    margin: 0px 0px 0px 300px !important;
+}
+#btnmenu, #btnAcceder, #btnCompar{
+    background-color: #103fb5;
+    border-color: #103fb5;
+    color: white;
+    width: 115px;
+    height: 40px;
+    text-align: center;
+    margin: 0px 10px !important;
+}
+.me-2 {
+    width: 315px !important;
+}
+nav{
+    background-color: #157347;
+}
+nav svg{
+    margin: 0px 0px 0px 12px;
+}
+#buscador{
+    margin: 0px 450px 0px 0px;
+}
+
+.logo {
+        width: 115px;
+        height: 40px;
+}
+
+.Search{
+    background-color: #FFa41c;
+    border-color: #FFa41c;
+    color: white;
+    height: 39px;
+    width: 39px;
+    margin: 0px 0px 0px -11px;
+}
+.categoria{
+    margin: 20px 30px ;
+}
+    
+.categoria-item{
+   margin: 0px -32px 0px 0px !important
+}
+.categoria-item p{
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    
+}
+.categoria-item img{
+    border-radius: 45px;
+}
+.container{
+    display: block;
+    padding: 0px 30px 0px 30px;
+}
+#card-content{
+    margin: 10px 0px;
+    height: 252px;
+    box-shadow: rgba(0,0, 0, 0.1) 5px 5px;
+}
+.contdia{
+    background-color: rgba(172, 255, 47, 0.623);
+    border-radius: 10px;
+    text-align: center;
+}
+#publicacion{
+    left: 760px;
+    position: absolute;
+    display: flex;
+}
+
+#btnpublic{
+    margin: 0px 0px 0px 225px;
+}
+.cuerpo{
+    display: flex;
+    margin: 0px 0px 0px 40px;
+}
+#content-text{
+    margin: -30px 0px -30px -26px !important ;
+}
+
+.card-body {
+    padding: 50px 14px 0px 15px !important;
+}
+.temcardimg{
+    width: 300px;
+    height: 250px;
+    padding: -20px;
+}
+.card-btn{
+    position: absolute;
+    bottom: 30px;
+    right: 15px;
+}
+#items img{
+    margin: 30px 0px;
+    border-radius: 10px;
+}
+.derecha {
+    padding: 0px 5px;
+}
+.logotienda{
+    width: 150px;
+    border-radius: 15%;
+    margin: 0px 90px 0px 90px;
+}
+#itemstienda{
+    width: 340px;
+    margin: 20px 0px;
+}
+.cuponera{
+    text-align: center;
+    background-color: #e6eff2;
+    border-radius: 4%;
+    margin-top: 30px;
+    width: 350px;
+}
+.tiendas{
+    
+    text-align: center;
+    background-color: #e6eff2;
+    border-radius: 4%;
+    margin-top: 30px;
+    width: 350px;
+}
+.template-tienda{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;      
+    padding: 20px;
+}
+.card-em img{
+    width: 100px;
+    height: 100px;
+}
+
+
+#flecha {
+    background-color: #0071dc;
+    border-color: #0071dc;
+    color: white;
+    width: 50px;
+    height: 40px;
+    margin: 8px 0px;
+}
+.title{
+    text-align: center;
+}
+.carrusel img{
+    height: 400px !important;
+    width: 1350px !important;
+}
+.textCarrusel{
+    position: absolute ;
+    text-align: center;
+    color: white;
+    width: 1300px;
+    top: 200px;
+}
+.categoria-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.Menu{
+    border-right: solid #157347;
+    background-color:#157347 ;
+    height: 530px;
+}
+.Menu a{
+    text-decoration: none;
+    display: grid;
+    width: 250px;
+    border-bottom: solid #157347;
+    border-radius: 5px;
+}
+.admin{
+    display: flex;
+    padding: 20px 0px;
+}
