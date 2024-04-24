@@ -1,0 +1,58 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Task {
+  id      Int    @id @default(autoincrement())
+  nombre  String
+  detalle String?
+  arte    String
+}
+
+model Empresa {
+  id       Int      @id @default(autoincrement())
+  nombre   String
+  link     String
+  logo     String
+  detalle  String?
+  createIn DateTime? @default(now())
+  upDate   DateTime?@default(now())
+}
+
+model Publicacion {
+  id          Int      @id @default(autoincrement())
+  titulo      String
+  detalle     String
+  arte        String
+  link        String
+  createIn    DateTime? @default(now())
+  finalpublic DateTime
+  catalogo    String?
+  galeria     String?
+  tipo        String?
+  id_category Int       
+  id_empresa  Int
+}
+
+model Carrusel {
+  id          Int      @id @default(autoincrement())
+  titulo      String
+  detalle     String?
+  arte        String
+  createIn    DateTime? @default(now())
+  finalpublic DateTime?
+  id_category Int
+  id_empresa  Int
+}
+
+model logo {
+  id       Int      @id @default(autoincrement())
+  logo     String
+  createIn DateTime @default(now())
+  upDate   DateTime @default(now())
+}
