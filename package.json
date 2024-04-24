@@ -1,0 +1,40 @@
+{
+  "name": "nextjs-prisma-crud",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/date-picker": "^2.0.6",
+    "@prisma/client": "^5.7.1",
+    "bootstrap": "^5.3.2",
+    "date-fns": "^3.2.0",
+    "flowbite": "^2.3.0",
+    "flowbite-datepicker": "^1.2.6",
+    "jquery": "^3.7.1",
+    "next": "14.0.4",
+    "react": "^18",
+    "react-datepicker": "^6.9.0",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "sweetalert": "^2.1.2",
+    "swiper": "^11.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.8",
+    "@types/react": "^18.2.48",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.33",
+    "prisma": "^5.7.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.3.3"
+  }
+}
